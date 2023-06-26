@@ -1,0 +1,30 @@
+.header{
+
+ position: sticky;
+ top:0;
+ height: 50px;
+ display: flex;
+ align-items: center;
+ overflow: hidden;
+ background-color: aliceblue;
+ padding: 5px;
+text-decoration: none;
+margin:1px;
+justify-content: space-around;
+
+}
+.header ul li {
+    list-style-type: none; 
+    text-decoration: none; 
+}
+.logo{
+text-decoration: none;
+list-style-type: none;    
+}
+.sub-headd-container{
+
+    display: flex;
+
+}
+
+

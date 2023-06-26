@@ -1,0 +1,64 @@
+.product-cart{
+
+    display: flex;
+    flex-wrap: wrap;
+}
+.product{
+   margin:2px;
+    border:1px gray solid;
+    padding:5px;
+   
+}
+.product:hover{
+    border:1.5px orange solid;
+}
+
+.cart-img{
+    width:220px;
+}
+
+.main-slider-conatainer{
+    background-image: url("https://res.cloudinary.com/djq16mbrr/image/upload/v1687704132/2_bscp4a.jpg");
+    height: 50vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.slider-heading{
+    color: white;
+    text-align: center;
+}
+.cart-heading{
+
+    font-size: 15px;
+    text-align: center;
+    border-color: red;
+}
+.cart-price{
+    font-size: 15px;
+    text-align: center;
+}
+.cart-button{
+    padding: 5px;
+    background-color: gray;
+    color: white;
+    border-width: 0px;
+    border-radius: 10px;
+    height: 35px;
+}
+.cart-button:hover{
+
+    background-color: orange;
+}
+.view-more-button{
+    height: 30px;;
+    border-width: 1px;
+    color: white;
+    border-radius: 10px;
+    background-color: transparent;
+}
+.view-more-button:hover{
+    background-color: orange;
+}

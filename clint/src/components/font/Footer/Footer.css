@@ -1,0 +1,26 @@
+ /* CSS for the footer */
+ footer {
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: center;
+    
+  }
+  
+  .container1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  .container1 > div {
+    flex: 1;
+    margin: 10px;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    /* CSS for small screens */
+    .container1 {
+      flex-direction: column;
+    }
+  }
