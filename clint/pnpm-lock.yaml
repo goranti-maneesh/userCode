@@ -1,11 +1,14 @@
 lockfileVersion: 5.3
 
 specifiers:
+  '@stripe/react-stripe-js': ^2.1.1
+  '@stripe/stripe-js': ^1.54.2
   '@testing-library/jest-dom': ^5.16.5
   '@testing-library/react': ^13.4.0
   '@testing-library/user-event': ^13.5.0
   axios: ^1.4.0
   bootstrap: ^5.3.0
+  dotenv: ^16.3.1
   react: ^18.2.0
   react-bootstrap: ^2.8.0
   react-bootstrap-sidebar-menu: ^2.0.3
@@ -14,14 +17,18 @@ specifiers:
   react-router-dom: ^6.14.0
   react-scripts: 5.0.1
   react-toastify: ^9.1.3
+  stripe: ^12.17.0
   web-vitals: ^2.1.4
 
 dependencies:
+  '@stripe/react-stripe-js': 2.1.1_3bc1a11f57f31ae063f154295a94dfd6
+  '@stripe/stripe-js': 1.54.2
   '@testing-library/jest-dom': 5.17.0
   '@testing-library/react': 13.4.0_react-dom@18.2.0+react@18.2.0
   '@testing-library/user-event': 13.5.0
   axios: 1.4.0
   bootstrap: 5.3.1
+  dotenv: 16.3.1
   react: 18.2.0
   react-bootstrap: 2.8.0_react-dom@18.2.0+react@18.2.0
   react-bootstrap-sidebar-menu: 2.0.3_react-dom@18.2.0+react@18.2.0
@@ -30,6 +37,7 @@ dependencies:
   react-router-dom: 6.14.2_react-dom@18.2.0+react@18.2.0
   react-scripts: 5.0.1_react@18.2.0
   react-toastify: 9.1.3_react-dom@18.2.0+react@18.2.0
+  stripe: 12.17.0
   web-vitals: 2.1.4
 
 packages:
@@ -2219,6 +2227,23 @@ packages:
     resolution: {integrity: sha512-OAPJUAtgeINhh/TAlUID4QTs53Njm7xzddaVlEs/SXwgtiD1tW22zAB/W1wdqfrpmikgaWQ9Fw6Ws+hsiRm5Vg==}
     dependencies:
       '@sinonjs/commons': 1.8.6
+    dev: false
+
+  /@stripe/react-stripe-js/2.1.1_3bc1a11f57f31ae063f154295a94dfd6:
+    resolution: {integrity: sha512-aHm6cWOqmOyq3eKKlR42hgvrcZhzc9ijL+BeXJ5H3uaWUKKcooSsBys0tiKl0gLxYQHUjUCvrRSX8fYaPBmAKg==}
+    peerDependencies:
+      '@stripe/stripe-js': ^1.44.1
+      react: ^16.8.0 || ^17.0.0 || ^18.0.0
+      react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
+    dependencies:
+      '@stripe/stripe-js': 1.54.2
+      prop-types: 15.8.1
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
+    dev: false
+
+  /@stripe/stripe-js/1.54.2:
+    resolution: {integrity: sha512-R1PwtDvUfs99cAjfuQ/WpwJ3c92+DAMy9xGApjqlWQMj0FKQabUAys2swfTRNzuYAYJh7NqK2dzcYVNkKLEKUg==}
     dev: false
 
   /@surma/rollup-plugin-off-main-thread/2.2.3:
@@ -4454,6 +4479,11 @@ packages:
   /dotenv/10.0.0:
     resolution: {integrity: sha512-rlBi9d8jpv9Sf1klPjNfFAuWDjKLwTIJJ/VxtoTwIR6hnZxcEOQCZg2oIL3MWBYw5GpUDKOEnND7LXTbIpQ03Q==}
     engines: {node: '>=10'}
+    dev: false
+
+  /dotenv/16.3.1:
+    resolution: {integrity: sha512-IPzF4w4/Rd94bA9imS68tZBaYyBWSCE47V1RGuMrB94iyTOIEwRmVL2x/4An+6mETpLrKJ5hQkB8W4kFAadeIQ==}
+    engines: {node: '>=12'}
     dev: false
 
   /duplexer/0.1.2:
@@ -9455,6 +9485,14 @@ packages:
   /strip-json-comments/3.1.1:
     resolution: {integrity: sha512-6fPc+R4ihwqP6N/aIv2f1gMH8lOVtWQHoqC4yK6oSDVVocumAsfCqjkXnqiYMhmMwS/mEHLp7Vehlt3ql6lEig==}
     engines: {node: '>=8'}
+    dev: false
+
+  /stripe/12.17.0:
+    resolution: {integrity: sha512-f8GhS2LQlGCDZ1Akyu57txgSWyLUEYf0yZYS7x2aTKJXVua5lLmmgfJFFYHfTgEdS5P6rurf0Ghcf/HVLggv5g==}
+    engines: {node: '>=12.*'}
+    dependencies:
+      '@types/node': 20.4.8
+      qs: 6.11.0
     dev: false
 
   /style-loader/3.3.3_webpack@5.88.2:
